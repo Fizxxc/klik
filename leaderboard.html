@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #3a8d99, #9c61e2);
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #34495e;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        table th, table td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+        }
+
+        table th {
+            background-color: #8e44ad;
+            color: #fff;
+            font-size: 1.2rem;
+        }
+
+        table td {
+            background-color: #1abc9c;
+            font-size: 1.1rem;
+        }
+
+        table tr:nth-child(even) td {
+            background-color: #16a085;
+        }
+
+        table tr:hover td {
+            background-color: #27ae60;
+            cursor: pointer;
+            transform: scale(1.02);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-size: 1rem;
+            color: #fff;
+        }
+
+        .footer a {
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Leaderboard
+    </header>
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Username</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Gokgok</td>
+                    <td>9,999,998</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Anolami</td>
+                    <td>9,999,888</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bool Kuda</td>
+                    <td>800,000</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Pler Gajahj</td>
+                    <td>700,064</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Janda Pink</td>
+                    <td>650,789</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Kokociix Leaderboard | <a href="index.html">Back to Top</a></p>
+    </div>
+
+</body>
+</html>
